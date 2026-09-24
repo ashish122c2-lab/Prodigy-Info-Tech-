@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header id="navbar">
+    <nav class="nav-container">
+      <a href="#home" class="logo">Tech<span>Nova</span></a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="eyebrow">TASK 01</p>
+        <h1>Interactive <span>Navigation</span></h1>
+        <p>Scroll the page or hover over the menu items to see the navigation style change.</p>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About</h2>
+      <p>This navigation stays fixed while scrolling and changes its background after scrolling.</p>
+    </section>
+
+    <section id="services" class="section alt">
+      <h2>Services</h2>
+      <div class="cards">
+        <article>Web Development</article>
+        <article>Responsive Design</article>
+        <article>UI Development</article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact</h2>
+      <p>Email: hello@technova.example</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
